@@ -42,4 +42,4 @@ ALTER Table utilisateur ADD constraint fk_user_role FOREIGN KEY (id_role) REFERE
 
 ALTER TABLE user_privilege ADD constraint fk_privilege_user FOREIGN key (id_privilege) REFERENCES privilege(id_pri);
 
-ALTER Table user_privilege ADD constraint fk_user_privilege FOREIGN KEY (id_user) REFERENCES utilisateur(id_user);
+ALTER Table user_privilege ADD constraint fk_user_privilege FOREIGN KEY (id_user) REFERENCES utilisateur(id_user);  

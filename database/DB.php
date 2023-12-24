@@ -26,6 +26,10 @@ class Database {
     public function prepare($query) {
         return $this->conn->prepare($query);
     }
+
+    public function query($sql) {
+        return $this->conn->query($sql);
+    }
 }
 
 ?>
